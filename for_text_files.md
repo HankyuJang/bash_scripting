@@ -149,7 +149,25 @@ Cooper
 Smith
 ```
 
+## Replace characters
+- `tr`: translate target to replacement characters
 
+```
+% cat data/first_names.txt
+Hankyu
+Hankyu
+John
+Alice
+Brandon
+% cat data/first_names.txt | tr "aeiou" "_"
+H_nky_
+H_nky_
+J_hn
+Al_c_
+Br_nd_n
+```
+
+## 
 
 
 
